@@ -1,3 +1,5 @@
 venv/
 ffmpeg-master-latest-win64-gpl-shared/
 .env
+__pycache__/
+*.pyc
