@@ -101,7 +101,7 @@ async def leave_channel(interaction: nextcord.Interaction):
     channel = interaction.user.voice.channel
 
     await voice_client.disconnect()
-    await interaction.response.send_message("Disconnected from {channel.name}!", ephemeral=True, delete_after=3.0)
+    await interaction.response.send_message(f"Disconnected from {channel.name}!", ephemeral=True, delete_after=3.0)
     print(f"{interaction.user.name} - Disconnected from {channel.name}")
 
 ########################
