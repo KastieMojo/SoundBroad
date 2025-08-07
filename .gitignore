@@ -4,3 +4,4 @@ ffmpeg-master-latest-win64-gpl-shared/
 __pycache__/
 *.pyc
 sounds/*.mp3
+start_bot.bat
