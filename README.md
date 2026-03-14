@@ -2,6 +2,11 @@
 
 This isn't meant to be portable or a plug-and-play bot. It’s just my personal, locally hosted Discord bot for soundboard and YouTube audio fun.
 
+## ⚠️ Note on API
+
+Some of the APIs used in this project (e.g., YouTube audio streaming) are **outdated and may no longer work**.  
+This project is best used for **educational purposes** or as a reference for learning Python, Discord bots, and asynchronous event handling.
+
 If you’re here because you *actually* want to use it, here’s how:
 
 1. Clone the repo.  
